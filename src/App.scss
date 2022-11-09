@@ -1,0 +1,55 @@
+.App {
+    background-image: url("./assets/demo.png");
+    background-repeat: round;
+    padding: 40px;
+    width: 100vw;
+    height: 100vh;
+
+    .title {
+        color: white;
+        font-size: 64px;
+        text-align: center;
+    }
+    .content {
+        display: flex;
+        .left {
+            flex: 1;
+            padding: 40px;
+            .line {
+                color: white;
+                font-size: 24px;
+                margin-top: 20px;
+                text-align: right;
+            }
+            .form-control {
+                font-size: 26px;
+                max-width: 200px;
+                height: 50px;
+                text-align: right;
+            }
+        }
+        .right {
+            flex: 1;
+            padding: 40px;
+            .line {
+                color: white;
+                font-size: 24px;
+                margin-top: 20px;
+            }
+            .form-control {
+                font-size: 26px;
+                max-width: 200px;
+                height: 50px;
+            }
+        }
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        .submit {
+            font-size: 24px;
+            width: 250px;
+            height: 60px;
+        }
+    }
+}
